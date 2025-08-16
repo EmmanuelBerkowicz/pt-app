@@ -1,0 +1,14 @@
+
+.LoginInput {
+  border: 3px solid green;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.LoginInputUserForm {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}

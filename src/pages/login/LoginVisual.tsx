@@ -1,4 +1,4 @@
-import styles from "./Login.module.css";
+import styles from "./styles/LoginVisual.module.css";
 
 function LoginVisual() {
   return (

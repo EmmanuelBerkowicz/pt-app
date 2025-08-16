@@ -26,23 +26,3 @@
   width: 100%;
 }
 
-.LoginVisual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.LoginInput {
-  border: 3px solid green;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px; 
-}
-
-.LoginInputUserForm {
-  display: flex;
-  flex-direction: column; 
-  gap: 10px;
-}

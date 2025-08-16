@@ -1,0 +1,48 @@
+.loginContainer {
+  border: 1px solid red;
+  height: 100%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px; 
+}
+
+.iconColumn {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginDetails {
+  border: 1px solid blue;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 20px; 
+  width: 100%;
+}
+
+.LoginVisual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.LoginInput {
+  border: 3px solid green;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
+
+.LoginInputUserForm {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}

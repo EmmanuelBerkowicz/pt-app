@@ -1,7 +1,21 @@
 .LoginVisual {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  height: 100%;
+  padding: 30px;
 }
 
+.LoginVisualHeading{
+  display: flex;
+  font-size: 40px;
+  font-weight: 650;
+}
+
+.LoginVisualSubheading{
+  display: flex;
+}
+
+.LoginVisualSubSubheading{
+  font-size: 10px;
+}

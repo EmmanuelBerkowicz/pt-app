@@ -3,7 +3,7 @@ import styles from "./styles/LoginVisual.module.css";
 function LoginVisual() {
   return (
     <div className={styles.LoginVisual}>
-      <p>This is where the login visuals, logo and prompt will go</p>
+      <h1>This is where the login visuals, logo and prompt will go</h1>
     </div>
   );
 }

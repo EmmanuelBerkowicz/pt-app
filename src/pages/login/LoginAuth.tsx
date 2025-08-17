@@ -28,26 +28,6 @@ function LoginAuth() {
             <div className={styles.loginOptionText}>
               <p>Continue with Apple</p>
             </div>
-          </div>{" "}
-          <div className={styles.genericLoginOption}>
-            <img
-              alt="Apple logo"
-              className={styles.logoGeneric}
-              src={appleLogo}
-            ></img>
-            <div className={styles.loginOptionText}>
-              <p>Continue with Apple</p>
-            </div>
-          </div>{" "}
-          <div className={styles.genericLoginOption}>
-            <img
-              alt="Apple logo"
-              className={styles.logoGeneric}
-              src={appleLogo}
-            ></img>
-            <div className={styles.loginOptionText}>
-              <p>Continue with Apple</p>
-            </div>
           </div>
         </div>
       </div>

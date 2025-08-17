@@ -1,4 +1,4 @@
-.loginContainer {
+.loginPageContainer {
   border: 1px solid red;
   height: 100%; 
   display: grid;
@@ -6,7 +6,7 @@
   gap: 10px; 
 }
 
-.iconColumn {
+.loginPageDisplayContainer {
   border: 1px solid black;
   padding: 10px;
   display: flex;
@@ -14,10 +14,9 @@
   align-items: center;
 }
 
-.loginDetails {
+.loginPageUserInputContainer {
   border: 1px solid blue;
   padding: 10px;
-
   display: flex;
   flex-direction: column; 
   justify-content: center;

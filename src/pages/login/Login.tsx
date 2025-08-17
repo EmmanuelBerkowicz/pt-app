@@ -6,11 +6,11 @@ import LoginVisual from "./LoginVisual";
 function Login() {
   return (
     <>
-      <div className={styles.loginContainer}>
-        <div className={styles.iconColumn}>
+      <div className={styles.loginPageContainer}>
+        <div className={styles.loginPageDisplayContainer}>
           <LoginVisual></LoginVisual>
         </div>
-        <div className={styles.loginDetails}>
+        <div className={styles.loginPageUserInputContainer}>
           <LoginInput></LoginInput>
           <LoginAuth></LoginAuth>
         </div>

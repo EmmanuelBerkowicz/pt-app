@@ -1,0 +1,27 @@
+.genericLoginOption{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  width: 275px;
+  padding-left: 10px;
+  margin-top: 5px;
+  background-color: white;
+  border: thin solid;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+
+.logoGeneric {
+  width: 30px;
+  height: auto;
+}
+
+.genericLoginOption{
+    background-color: #ffffff;
+}
+
+.loginOptionText p{
+    margin: 0;
+}

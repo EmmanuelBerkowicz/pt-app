@@ -1,29 +1,97 @@
+/* LoginInput.module.css */
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12pt;
+  text-align: center;
+}
+
 .LoginInput {
-  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 10px; 
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.LoginInputHeading {
+  font-size: 5vw;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .LoginInputUserForm {
+  width: min(400px, 100%);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   display: flex;
-  flex-direction: column; 
-  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
-.registerLink{
-  display: flex;
-}
-
-.LoginInputHeadingContainer{
+.userNameField,
+.passwordField {
+  width: 100%;
   display: flex;
   justify-content: center;
-  font-size: 15px;
 }
 
-.LoginInputHeading{
-  font-size: 50px;
-  font-weight: 900;
-
+.userNameField svg,
+.passwordField svg {
+  flex-shrink: 0;
+  height: 3rem;
+  width: 3rem;
+  background-color: rgb(154, 154, 243);
+  border-radius: 0.5rem 0 0 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
 }
 
+.userNameField input,
+.passwordField input {
+  box-sizing: border-box;
+  flex-grow: 1;
+  min-width: 0;
+  height: 3rem;
+  padding: 0.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  border: none;
+  background: rgb(202, 202, 240);
+  transition: 150ms ease;
+  text-align: left;
+}
+
+.userNameField input:hover,
+.passwordField input:hover {
+  border: 0.1rem solid red;
+  border-left: none;
+}
+
+.userNameField input:focus,
+.passwordField input:focus {
+  outline: none;
+}
+
+.userNameField:has(input:focus) svg,
+.passwordField:has(input:focus) svg {
+  background-color: rgba(60, 24, 24, 0.555);
+}
+
+.registerLink {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.registerLink a {
+  text-decoration: none;
+}
+
+.registerLink a:hover {
+  color: rgba(153, 125, 229, 0.527);
+  text-decoration: underline;
+}

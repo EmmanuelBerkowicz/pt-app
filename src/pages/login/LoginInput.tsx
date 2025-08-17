@@ -10,7 +10,7 @@ function LoginInput() {
         <div className={styles.LoginInputHeadingContainer}>
           <h1 className={styles.LoginInputHeading}>LOGIN</h1>
         </div>
-        <div className="userNameField">
+        <div className={styles.userNameField}>
           <svg
             width="24px"
             height="24px"
@@ -28,7 +28,7 @@ function LoginInput() {
           </svg>
           <input type="text" placeholder="Enter username"></input>
         </div>
-        <div className="passwordField">
+        <div className={styles.passwordField}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24px"

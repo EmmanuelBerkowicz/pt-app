@@ -1,5 +1,4 @@
 .loginPageContainer {
-  border: 1px solid red;
   height: 100%; 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -7,7 +6,6 @@
 }
 
 .loginPageDisplayContainer {
-  border: 1px solid black;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -15,7 +13,6 @@
 }
 
 .loginPageUserInputContainer {
-  border: 1px solid blue;
   padding: 10px;
   display: flex;
   flex-direction: column; 

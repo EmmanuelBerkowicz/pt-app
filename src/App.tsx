@@ -9,7 +9,7 @@ function App() {
       <div className="navbar p-1 bg-light">
         <Navbar />
       </div>
-      <div className="p-3 bg-info overflow-auto">
+      <div>
         <Login />
       </div>
       <div className="bottombar p-3 bg-danger">

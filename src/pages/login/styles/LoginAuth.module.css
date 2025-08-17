@@ -25,3 +25,9 @@
 .loginOptionText p{
     margin: 0;
 }
+
+.LoginAuthHeadingWrapper{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}

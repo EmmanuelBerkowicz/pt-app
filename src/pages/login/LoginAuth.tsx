@@ -6,7 +6,9 @@ function LoginAuth() {
   return (
     <>
       <div className="authenticationContainer">
-        <p className="login-with-text">Login with: </p>
+        <div className={styles.LoginAuthHeadingWrapper}>
+          <p className={styles.LoginAuthHeading}>Login with: </p>
+        </div>
 
         <div className="loginOptionsWrapper">
           <div className={styles.genericLoginOption}>

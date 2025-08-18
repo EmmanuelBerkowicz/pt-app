@@ -1,18 +1,24 @@
-import Navbar from "./layouts/Navbar";
+import Navbar from "./components/navbar/Navbar";
 import Bottombar from "./layouts/Bottombar";
 import "./assets/global.css";
 import Login from "./pages/login/Login";
+import styles from "./App.module.css";
+import { useState } from "react";
+
+type Theme = "light" | "dark";
 
 function App() {
+  const [theme, setTheme] = useState<Theme>("light");
+
   return (
-    <div className="container-fluid app-grid">
-      <div className="navbar p-1 bg-light">
-        <Navbar />
+    <div>
+      <div className={`${styles.navbar} ${styles}`}>
+        <Navbar theme={theme} setTheme={setTheme} />
       </div>
       <div>
         <Login />
       </div>
-      <div className="bottombar p-3 bg-danger">
+      <div>
         <Bottombar />
       </div>
     </div>

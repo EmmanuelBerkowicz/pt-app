@@ -6,10 +6,10 @@
 - ~~**Issue #1**: Initialize Git repository with proper .gitignore~~
 - ~~**Issue #2**: Initialize React TypeScript frontend~~
 - ~~**Issue #3**: Set up basic project structure and dependencies~~
-- **Issue #4**: Create basic login screen (UI only) <-- IN PROGRESS
-- **Issue #5**: Create home screen/dashboard layout (UI only) <-- IN PROGRESS
-- **Issue #6**: Set up React Router for navigation
-- **Issue #7**: Configure ESLint, Prettier, and basic tooling
+- ~~**Issue #4**: Create basic login screen (UI only)~~ NOTE: BASIC LOGIN PAGE WITH REQURIED FIELDS CREATED, LAYOUT WILL EVOLVE OVER TIME
+- ~~**Issue #5**: Create home screen/dashboard layout (Basic UI only)~~ NOTE: BASIC PAGES CREATED: STYLE AND CONTENT WILL EVOLVE OVER TIME
+- ~~**Issue #6**: Set up React Router for navigation~~
+- ~~**Issue #7**: Configure ESLint, Prettier, and basic tooling~~
 
 ### 1.2 Backend Foundation
 - **Issue #8**: Set up Django backend project structure

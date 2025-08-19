@@ -3,11 +3,11 @@
 ## 🚀 Phase 1: Project Foundation & Frontend First
 
 ### 1.1 Initial Setup & Frontend
-- **Issue #1**: Initialize Git repository with proper .gitignore
-- **Issue #2**: Initialize React TypeScript frontend
-- **Issue #3**: Set up basic project structure and dependencies
-- **Issue #4**: Create basic login screen (UI only)
-- **Issue #5**: Create home screen/dashboard layout (UI only)
+- ~~**Issue #1**: Initialize Git repository with proper .gitignore~~
+- ~~**Issue #2**: Initialize React TypeScript frontend~~
+- ~~**Issue #3**: Set up basic project structure and dependencies~~
+- **Issue #4**: Create basic login screen (UI only) <-- IN PROGRESS
+- **Issue #5**: Create home screen/dashboard layout (UI only) <-- IN PROGRESS
 - **Issue #6**: Set up React Router for navigation
 - **Issue #7**: Configure ESLint, Prettier, and basic tooling
 

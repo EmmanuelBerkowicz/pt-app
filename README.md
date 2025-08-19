@@ -1,69 +1,70 @@
-# React + TypeScript + Vite
+# Personal Trainer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive web application that enables Personal Trainers to assign exercise routines to their clients and track their progress on non-training days.
 
-Currently, two official plugins are available:
+## 🎯 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application bridges the gap between in-person training sessions by allowing Personal Trainers to:
+- Assign custom exercise routines to clients for independent training days
+- Track client progress and exercise completion
+- Foster community engagement through group progress sharing
+- Manage a comprehensive exercise database with detailed instructions
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Frontend
+- **React 18** with **TypeScript**
+- Modern UI framework (to be decided)
+- State management (to be decided)
+- Authentication handling
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Backend
+- **Django 5.0** with **Python 3.11+**
+- Django REST Framework for API
+- Database solution (PostgreSQL likely)
+- Authentication method (JWT likely)
+- Custom exercise API
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+### Development Tools
+- Git for version control
+- Code formatting and linting tools
+- Testing frameworks (to be chosen)
+- Deployment platform (to be decided)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📋 Core Features
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### For Personal Trainers
+- Create and manage exercise routines
+- Assign routines to specific clients
+- Track client progress and completion rates
+- Manage client roster
+- Add/edit exercises in the database
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### For Clients
+- View assigned exercise routines
+- Mark exercises as completed
+- Log additional exercises performed
+- Participate in community progress sharing
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Exercise Management
+- Comprehensive exercise database
+- Exercise categorization by body target
+- Detailed instructions and descriptions
+- Visual content support (images/videos)?
+- Search and filter functionality
+
+### Community Features
+- Group posting system
+- Progress sharing polls
+- Client interaction and motivation
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm/yarn
+- Python 3.11+
+- PostgreSQL 14+
+- Git
+cd frontend
+npm install
+npm start

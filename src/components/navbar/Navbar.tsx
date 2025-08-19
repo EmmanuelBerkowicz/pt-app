@@ -31,8 +31,12 @@ function Navbar({ theme, setTheme }: NavbarProps) {
         <li>
           <Link to="/login">Login</Link>
         </li>
-        <li>Features</li>
-        <li>About</li>
+        <li>
+          <Link to="/clients">Clients</Link>
+        </li>
+        <li>
+          <Link to="/exercises">Exercises</Link>
+        </li>
       </ul>
 
       <div className={styles.searchBox}>

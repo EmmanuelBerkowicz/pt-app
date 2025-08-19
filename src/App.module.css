@@ -1,10 +1,9 @@
 .light{
-    background: #fff;
+    background: #ffffff;
     transition: 0.5s;
 }
 
 .dark{
-    background: #000000;
+    background: #0c0000;
     transition: 0.5s;
-
 }

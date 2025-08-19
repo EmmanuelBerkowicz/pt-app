@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <div className={`${styles.navbar} ${styles}`}>
+      <div className={`${styles.navbar} ${styles[theme]}`}>
         <Navbar theme={theme} setTheme={setTheme} />
       </div>
       <div>

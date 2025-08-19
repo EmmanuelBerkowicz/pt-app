@@ -1,9 +1,9 @@
 .navbarContainer{
     display: flex;
     width: 100%;
-    align-items: cernter;
+    align-items: center;
     justify-content: space-between;
-    padding: 15px 7%;
+    padding: 10px 7%;
 }
 
 .logo{

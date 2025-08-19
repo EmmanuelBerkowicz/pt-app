@@ -65,16 +65,6 @@ This application bridges the gap between in-person training sessions by allowing
 - Python 3.11+
 - PostgreSQL 14+
 - Git
-
-### Installation (Getting Started)
-
-#### Initial Setup
-```bash
-# Clone the repository
-git clone <repository-url>
-cd personal-trainer-app
-
-# Start with frontend
 cd frontend
 npm install
 npm start

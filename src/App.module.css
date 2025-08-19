@@ -7,3 +7,14 @@
     background: #0c0000;
     transition: 0.5s;
 }
+
+.appContainer{
+  display: grid;
+  grid-template-rows: auto 1fr 30px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+}

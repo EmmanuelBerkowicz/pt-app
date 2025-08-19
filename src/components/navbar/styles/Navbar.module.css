@@ -58,3 +58,14 @@
 .searchInput::placeholder{
     color: #fff;
 }
+
+.test{
+    text-decoration: none;
+    color: black;
+}
+
+.linkList a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}

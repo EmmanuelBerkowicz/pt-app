@@ -5,6 +5,7 @@ import search_icon_light from "../../assets/Images/Navbar/search-w.png";
 import search_icon_dark from "../../assets/Images/Navbar/search-b.png";
 import toggle_light from "../../assets/Images/Navbar/night.png";
 import toggle_dark from "../../assets/Images/Navbar/day.png";
+import { Link } from "react-router-dom";
 
 interface NavbarProps {
   theme: "light" | "dark";
@@ -24,8 +25,12 @@ function Navbar({ theme, setTheme }: NavbarProps) {
       />
 
       <ul className={styles.linkList}>
-        <li>Home</li>
-        <li>Products</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/login">Login</Link>
+        </li>
         <li>Features</li>
         <li>About</li>
       </ul>

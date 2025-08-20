@@ -12,7 +12,7 @@
 - ~~**Issue #7**: Configure ESLint, Prettier, and basic tooling~~
 
 ### 1.2 Backend Foundation
-- **Issue #8**: Set up Django backend project structure
+- **Issue #8**: Set up Django backend project structure <-- IN PROGRESS
 - **Issue #9**: Configure development environment (virtual env, requirements.txt)
 - **Issue #10**: Set up PostgreSQL database
 - **Issue #11**: Create User model with PT/Client roles

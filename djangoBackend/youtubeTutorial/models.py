@@ -11,4 +11,5 @@ class Reservation(models.Model):
     last_name = models.CharField(max_length=255)
     guest_count = models.IntegerField()
     reservation_time = models.DateField(auto_now=True)
+    is_member = models.BooleanField()
     comments = models.CharField(max_length=1000)
